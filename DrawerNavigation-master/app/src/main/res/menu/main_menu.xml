@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_book"
+            android:title="@string/book" />
+
+        <item
+            android:id="@+id/nav_return"
+            android:icon="@drawable/ic_return"
+            android:title="@string/item_return"
+            />
+
+        <item
+            android:id="@+id/nav_laptop"
+            android:icon="@drawable/ic_laptop"
+            android:title="@string/laptop"
+            />
+
+        <item
+            android:id="@+id/nav_voice"
+            android:icon="@drawable/ic_voice"
+            android:title="@string/voice"
+            />
+
+    </group>
+
+
+    <item android:title="@string/reading">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_chrome_reader"
+                    android:icon="@drawable/ic_chrome_reader"
+                    android:title="@string/chrome_reader"/>
+
+                <item
+                    android:id="@+id/nav_read_more"
+                    android:icon="@drawable/ic_read_more"
+                    android:title="@string/read_more"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/Comments">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_add_comment"
+                    android:icon="@drawable/ic_add_comment"
+                    android:title="@string/add_comments"/>
+
+                <item
+                    android:id="@+id/nav_insert_comment"
+                    android:icon="@drawable/ic_insert_comment"
+                    android:title="@string/insert_comments"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
